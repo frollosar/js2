@@ -1,0 +1,10 @@
+[
+  {
+    "imgMin": "./img/min/starship.png",
+    "imgMax": "./img/max/starship.png"
+  },
+  {
+    "imgMin": "./img/min/2.jpg",
+    "imgMax": "./img/max/2.jpg"
+  }
+]
