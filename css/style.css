@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    }
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower|Raleway');
+
+.container{
+    width: 100%;
+    background: gray;
+}
+
+header .whole{
+    background: url("../img/logo.png") no-repeat top center;
+    background-size: contain;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header .logotop{
+    justify-content: space-between;
+}
+
+header .center{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+header .logodesc{
+    font-size: 20px;
+    justify-content: center;
+}  
+
+header ul{
+    display: flex;
+}
+
+header li{
+    padding: 10px;
+}
+
+.navigation {
+    background-color: #fff;
+}
+
+.navigation img{
+    padding-top: 15px;
+}
+
+.navigation h2{
+    font-size: 20px;
+    padding: 15px;
+}
+
+.navigation .row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.realization{
+    background-color: #fff;
+}
+
+
+.realization .row{
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.realization h2{
+    padding: 15px;
+    font-size: 24px;
+}
+
+.latestProjects{
+    background-color: #fff;
+}
+
+
+.latestProjects .row{
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.latestProjects h2{
+    padding: 15px;
+    font-size: 24px;
+}
+
+.latestProjects .col-lg-3 img{
+    width: 100%;
+}
+
+.videoPresentation video{
+    width: 100%;
+}
+
+.latestProjects button {
+    background-color: #998675;
+    border: none;
+    color: #fff;
+}
