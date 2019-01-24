@@ -1,0 +1,43 @@
+{
+  "name": "totum",
+  "version": "5.0.0",
+  "description": "pricecount",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-css-base64": "^1.3.4",
+    "gulp-dest": "^0.2.3",
+    "gulp-md5-replace": "^0.1.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.1.1"
+  },
+  "dependencies": {
+    "bower": "^1.8.4",
+    "gulp-cdn-absolute-path": "github:anhulife/gulp-cdn-absolute-path",
+    "gulp-include": "^2.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-static-hash": "^0.1.4",
+    "gulp-uglifyes": "^0.1.3",
+    "gulp-util": "^3.0.8",
+    "npm": "^5.8.0",
+    "through2": "^2.0.3"
+  },
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pricecount@bitbucket.org/pricecount/totum.git"
+  },
+  "author": "Polunina",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/pricecount/totum#readme"
+}
