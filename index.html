@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson8</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="node_modules/jqueryui/jquery-ui.theme.css">
+    <link rel="stylesheet" href="node_modules/jqueryui/jquery-ui.min.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jqueryui/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <section class="feedback">
+            <form action="#" method="post" name="feedback">
+                <fieldset>
+                    <label for="name">Ваше имя:</label><br>
+                    <input type="text" placeholder="Ваше имя" id="name"><span>Имя может содержать только буквы</span><br>
+                    <label for="dateOfBirth">Дата рождения:</label><br>
+                    <input type="text" placeholder="01-01-1990" id="dateOfBirth"><span>В формате 01-01-1990</span><br>
+                    <label for="phone">Ваш номер телефона:</label><br>
+                    <input type="text" placeholder="+7(000)000-0000 " id="phone">
+                    <span>Введите телефон в формате +7(000)000-0000</span><br>
+
+                    <label for="email">Ваш E-mail:</label><br>
+                    <input type="email" placeholder="example@example.ru " id="email">
+                    <span>E-mail в формате mymail@mail.ru</span><br>
+
+                    <textarea name="text" id="message" cols="50" rows="10" placeholder="Ваше сообщение: "></textarea>
+                    <br>
+
+                    <input type="submit" id="send-Form">
+                    <input type="reset" id="reset">
+                </fieldset>
+            </form>
+        </section>
+
+
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

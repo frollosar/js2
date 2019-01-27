@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jasmine8</title>
+    <link rel="stylesheet" href="./node_modules/jasmine-core/lib/jasmine-core/jasmine.css">
+    <script src="./node_modules/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+    <script src="./node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+    <script src="./node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/jqueryui/jquery-ui.min.js"></script>
+    <script src="./script/script.js"></script>
+    
+</head>
+
+<body>
+    <input type="text" placeholder="Ваше имя" id="name" value="vova">
+    <input type="text" placeholder="01-01-1990" id="dateOfBirth" value="01-01-1990">
+    <input type="text" placeholder="+7(000)000-0000 " id="phone" value="+7(910)111-1111">
+    <input type="email" placeholder="example@example.ru " id="email" value="frol17@bk.ru">
+    <script>
+        describe("Проверка формы", function() {
+            it("Проверка функции isValidField", function() {
+                    expect(isValidField(document.querySelector('#name'), /^[a-zа-яё]+$/i)).toBe(true);
+                    expect(isValidField(document.querySelector('#dateOfBirth'),/^\d{2}-\d{2}-\d{4}$/)).toBe(true);
+                    expect(isValidField(document.querySelector('#phone'), /^\+7\(\d{3}\)\d{3}-\d{4}$/)).toBe(true);
+                    expect(isValidField(document.querySelector('#email'), /^[a-z0-9]+[a-z0-9.-]+@[a-z0-9.-]+\.[a-z0-9]{2,}$/i)).toBe(true);
+            });
+        });
+    </script>      
+</body>
+
+</html>
