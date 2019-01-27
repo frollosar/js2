@@ -1,0 +1,36 @@
+.container {
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+
+.feedback {
+    text-align: left;
+    border: none;
+}
+
+.feedback input, .feedback textarea {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: lightgray solid 1px;
+}
+
+.feedback span {
+    color: red;
+    font-size: 0.75em;
+    opacity: 0;
+}
+
+input.invalid {
+    border: red solid 1px;
+}
+
+.feedback .invalid +span {
+    opacity: 1;
+}
+
+.notify {
+    width: 250px;
+    color: green;
+}
